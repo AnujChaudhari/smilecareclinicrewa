@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Best Dentist in Rewa | स्माइल केयर Dental Clinic</title>
+    <meta name="description" content="Looking for the best dentist in Rewa? Visit स्माइल केयर (Smile Care) Clinic by Dr. Irshad Ahmad. Book an appointment today for painless, modern, and affordable dental care.">
+    <meta name="keywords" content="Dentist in Rewa, Best dental clinic near me, Dr. Irshad Ahmad, Smile Care Rewa, Dental Implants, Root Canal Rewa">
+    <meta name="author" content="स्माइल केयर Dental Clinic">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind Configuration & Custom CSS -->
+  
+</head>
+<body class="font-sans text-gray-600 bg-gray-50 overflow-x-hidden">
+
+    <!-- 1. Sticky Header -->
+    <header id="header" class="fixed w-full top-0 z-50 transition-all duration-300 glass-nav">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <div class="w-10 h-10 bg-brand-teal rounded-xl flex items-center justify-center text-white shadow-md">
+                        <i data-lucide="smile" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-heading font-bold text-2xl text-dark leading-none">स्माइल केयर</h1>
+                        <p class="text-[10px] font-semibold text-brand-teal tracking-wider uppercase">Smile Care</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="font-medium text-gray-700 hover:text-brand-teal transition-colors">Home</a>
+                    <a href="#services" class="font-medium text-gray-700 hover:text-brand-teal transition-colors">Services</a>
+                    <a href="#about" class="font-medium text-gray-700 hover:text-brand-teal transition-colors">About</a>
+                    <a href="#reviews" class="font-medium text-gray-700 hover:text-brand-teal transition-colors">Reviews</a>
+                    <a href="#contact" class="font-medium text-gray-700 hover:text-brand-teal transition-colors">Contact</a>
+                </nav>
+
+                <!-- Desktop CTAs -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="tel:+917389008657" class="flex items-center gap-2 font-semibold text-dark hover:text-brand-teal transition">
+                        <i data-lucide="phone-call" class="w-5 h-5 text-brand-teal"></i>
+                        +91 73890 08657
+                    </a>
+                    <a href="#appointment" class="bg-brand-teal hover:bg-brand-tealDark text-white px-6 py-2.5 rounded-full font-semibold transition-all transform hover:-translate-y-0.5 shadow-md">
+                        Book Appointment
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-brand-teal focus:outline-none">
+                        <i data-lucide="menu" class="w-7 h-7"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full shadow-apple">
+            <div class="px-4 pt-2 pb-6 space-y-1">
+                <a href="#home" class="block px-3 py-3 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-brand-teal">Home</a>
+                <a href="#services" class="block px-3 py-3 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-brand-teal">Services</a>
+                <a href="#about" class="block px-3 py-3 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-brand-teal">About</a>
+                <a href="#reviews" class="block px-3 py-3 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-brand-teal">Reviews</a>
+                <a href="#contact" class="block px-3 py-3 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50 hover:text-brand-teal">Contact</a>
+                <div class="mt-4 pt-4 border-t border-gray-100 flex flex-col gap-3 px-3">
+                    <a href="tel:+917389008657" class="flex items-center justify-center gap-2 w-full border-2 border-brand-teal text-brand-teal px-5 py-3 rounded-xl font-semibold">
+                        <i data-lucide="phone" class="w-5 h-5"></i> Call Now
+                    </a>
+                    <a href="https://wa.me/917389008657?text=Hello%20I%20want%20to%20book%20an%20appointment" target="_blank" class="flex items-center justify-center gap-2 w-full bg-[#25D366] text-white px-5 py-3 rounded-xl font-semibold shadow-md">
+                        <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section id="home" class="pt-28 pb-16 md:pt-40 md:pb-24 hero-gradient">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-8">
+                <!-- Text Content -->
+                <div class="w-full lg:w-1/2 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-lightGreenBg text-brand-tealDark font-semibold text-sm mb-6 border border-brand-lightGreen">
+                        <span class="relative flex h-3 w-3">
+                          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-teal opacity-75"></span>
+                          <span class="relative inline-flex rounded-full h-3 w-3 bg-brand-teal"></span>
+                        </span>
+                        Accepting New Patients in Rewa
+                    </div>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold text-dark leading-tight mb-6">
+                        Advanced Dental Care You Can <span class="text-brand-teal">Trust</span> in Rewa
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto lg:mx-0">
+                        Experience painless, modern, and affordable dental treatments with Dr. Irshad Ahmad. Your journey to a healthy, confident smile starts here.
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="#appointment" class="w-full sm:w-auto bg-brand-teal hover:bg-brand-tealDark text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all transform hover:-translate-y-1 shadow-lg flex items-center justify-center gap-2">
+                            Book Appointment <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                        </a>
+                        <a href="https://wa.me/917389008657?text=Hello%20I%20want%20to%20book%20an%20appointment" target="_blank" class="w-full sm:w-auto bg-white border-2 border-gray-200 hover:border-[#25D366] text-gray-800 hover:text-[#25D366] px-8 py-4 rounded-2xl font-bold text-lg transition-all flex items-center justify-center gap-2 shadow-sm hover:shadow-md">
+                            <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp Chat
+                        </a>
+                    </div>
+                    
+                    <!-- Quick Trust Signals -->
+                    <div class="mt-10 flex items-center justify-center lg:justify-start gap-6 text-sm font-medium text-gray-500">
+                        <div class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-brand-teal"></i> Painless Care</div>
+                        <div class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-brand-teal"></i> Modern Tech</div>
+                        <div class="flex items-center gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-brand-teal"></i> Top Rated</div>
+                    </div>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="w-full lg:w-1/2 relative">
+                    <!-- Background decorative blob -->
+                    <div class="absolute -top-10 -right-10 w-72 h-72 bg-brand-lightGreen rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob"></div>
+                    <div class="absolute -bottom-10 -left-10 w-72 h-72 bg-brand-teal rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
+                    
+                    <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80" 
+                         alt="Dentist treating a happy patient in a modern dental clinic" 
+                         class="relative z-10 w-full h-[400px] md:h-[500px] object-cover rounded-[2rem] shadow-apple"
+                         onload="this.classList.add('loaded')">
+                         
+                    <!-- Floating Badge -->
+                    <div class="absolute bottom-6 left-6 md:-left-6 z-20 bg-white p-4 rounded-2xl shadow-apple flex items-center gap-4">
+                        <div class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center text-yellow-500">
+                            <i data-lucide="star" class="fill-current w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <p class="font-heading font-bold text-dark text-lg leading-none">4.9/5</p>
+                            <p class="text-xs text-gray-500 font-medium">1000+ Happy Patients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Quick Contact Bar -->
+    <section class="relative z-20 -mt-8 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="bg-white rounded-3xl shadow-card p-6 md:p-8 flex flex-col md:flex-row justify-between items-center gap-6 border border-gray-50">
+            <a href="https://maps.app.goo.gl/..." target="_blank" class="flex items-start gap-4 w-full md:w-1/3 group cursor-pointer">
+                <div class="w-12 h-12 bg-brand-lightGreenBg rounded-xl flex items-center justify-center text-brand-teal group-hover:bg-brand-teal group-hover:text-white transition-colors">
+                    <i data-lucide="map-pin" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <h3 class="font-heading font-semibold text-dark text-lg">Location</h3>
+                    <p class="text-sm text-gray-500 mt-1">Beside Nayan Sukh Opticians, Venkat Rd, Rewa</p>
+                </div>
+            </a>
+            
+            <div class="hidden md:block w-px h-16 bg-gray-100"></div>
+            
+            <a href="tel:+917389008657" class="flex items-start gap-4 w-full md:w-1/3 group cursor-pointer">
+                <div class="w-12 h-12 bg-brand-lightGreenBg rounded-xl flex items-center justify-center text-brand-teal group-hover:bg-brand-teal group-hover:text-white transition-colors">
+                    <i data-lucide="phone" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <h3 class="font-heading font-semibold text-dark text-lg">Call Us</h3>
+                    <p class="text-sm text-gray-500 mt-1">+91 73890 08657</p>
+                </div>
+            </a>
+
+            <div class="hidden md:block w-px h-16 bg-gray-100"></div>
+
+            <a href="https://wa.me/917389008657?text=Hello%20I%20want%20to%20book%20an%20appointment" target="_blank" class="flex items-start gap-4 w-full md:w-1/3 group cursor-pointer">
+                <div class="w-12 h-12 bg-green-50 rounded-xl flex items-center justify-center text-[#25D366] group-hover:bg-[#25D366] group-hover:text-white transition-colors">
+                    <i data-lucide="message-circle" class="w-6 h-6"></i>
+                </div>
+                <div>
+                    <h3 class="font-heading font-semibold text-dark text-lg">WhatsApp</h3>
+                    <p class="text-sm text-gray-500 mt-1">Chat for instant booking</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- 4. Services Section -->
+    <section id="services" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h4 class="text-brand-teal font-semibold tracking-wide uppercase mb-2">Our Services</h4>
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-dark mb-4">Comprehensive Dental Solutions</h2>
+                <p class="text-gray-600 text-lg">We offer a wide range of specialized dental treatments using state-of-the-art technology to ensure your absolute comfort.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-apple-hover transition-all duration-300 group border border-gray-100">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1681939282781-341ac4f61996?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Routine Dental Checkup" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 bg-white p-2 rounded-xl text-brand-teal shadow-md">
+                            <i data-lucide="clipboard-check" class="w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8">
+                        <h3 class="font-heading font-bold text-xl text-dark mb-3">Routine Checkups</h3>
+                        <p class="text-gray-600 mb-6 line-clamp-2">Complete oral examination, digital X-rays, and professional cleaning to maintain optimal oral health.</p>
+                        <a href="#appointment" class="text-brand-teal font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+                            Book Service <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-apple-hover transition-all duration-300 group border border-gray-100">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1684607633080-df59e6874367?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Teeth Whitening" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 bg-white p-2 rounded-xl text-brand-teal shadow-md">
+                            <i data-lucide="sparkles" class="w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8">
+                        <h3 class="font-heading font-bold text-xl text-dark mb-3">Teeth Whitening</h3>
+                        <p class="text-gray-600 mb-6 line-clamp-2">Get a brighter, stain-free smile instantly with our safe and advanced laser teeth whitening treatments.</p>
+                        <a href="#appointment" class="text-brand-teal font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+                            Book Service <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-apple-hover transition-all duration-300 group border border-gray-100">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=600&q=80" alt="Painless Root Canal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 bg-white p-2 rounded-xl text-brand-teal shadow-md">
+                            <i data-lucide="activity" class="w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8">
+                        <h3 class="font-heading font-bold text-xl text-dark mb-3">Painless Root Canal</h3>
+                        <p class="text-gray-600 mb-6 line-clamp-2">Save your natural tooth with our single-visit, highly precise, and completely painless root canal therapy.</p>
+                        <a href="#appointment" class="text-brand-teal font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+                            Book Service <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-apple-hover transition-all duration-300 group border border-gray-100">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&w=600&q=80" alt="Dental Implants" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 bg-white p-2 rounded-xl text-brand-teal shadow-md">
+                            <i data-lucide="layers" class="w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8">
+                        <h3 class="font-heading font-bold text-xl text-dark mb-3">Dental Implants</h3>
+                        <p class="text-gray-600 mb-6 line-clamp-2">Permanent and natural-looking replacements for missing teeth, restoring both function and aesthetics.</p>
+                        <a href="#appointment" class="text-brand-teal font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+                            Book Service <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-apple-hover transition-all duration-300 group border border-gray-100">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=600&q=80" alt="Braces & Aligners" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 bg-white p-2 rounded-xl text-brand-teal shadow-md">
+                            <i data-lucide="git-commit" class="w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8">
+                        <h3 class="font-heading font-bold text-xl text-dark mb-3">Braces & Aligners</h3>
+                        <p class="text-gray-600 mb-6 line-clamp-2">Straighten your teeth with traditional braces or invisible aligners customized just for your jawline.</p>
+                        <a href="#appointment" class="text-brand-teal font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+                            Book Service <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="bg-white rounded-[2rem] overflow-hidden shadow-sm hover:shadow-apple-hover transition-all duration-300 group border border-gray-100">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=600&q=80" alt="Smile Makeover" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 bg-white p-2 rounded-xl text-brand-teal shadow-md">
+                            <i data-lucide="smile-plus" class="w-6 h-6"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8">
+                        <h3 class="font-heading font-bold text-xl text-dark mb-3">Smile Makeover</h3>
+                        <p class="text-gray-600 mb-6 line-clamp-2">Complete cosmetic transformation using veneers, contouring, and advanced restorative techniques.</p>
+                        <a href="#appointment" class="text-brand-teal font-semibold flex items-center gap-2 hover:gap-3 transition-all">
+                            Book Service <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5 & 6. About Doctor & Why Choose Us -->
+    <section id="about" class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <!-- Doctor Image -->
+                <div class="w-full lg:w-5/12 relative">
+                    <div class="absolute inset-0 bg-brand-lightGreen rounded-[3rem] transform rotate-3 scale-105 opacity-50"></div>
+                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80" 
+                         alt="Dr. Irshad Ahmad, Best Dentist in Rewa" 
+                         class="relative z-10 w-full h-auto object-cover rounded-[3rem] shadow-apple border-8 border-white">
+                         
+                    <div class="absolute -bottom-8 -right-8 md:-right-12 z-20 bg-brand-teal text-white p-6 rounded-3xl shadow-apple max-w-[200px]">
+                        <h4 class="font-heading font-bold text-2xl">BDS</h4>
+                        <p class="text-sm font-medium mt-1 opacity-90">Specialist in Oral & Dental Care</p>
+                    </div>
+                </div>
+
+                <!-- Text Content -->
+                <div class="w-full lg:w-7/12">
+                    <h4 class="text-brand-teal font-semibold tracking-wide uppercase mb-2">Meet Your Doctor</h4>
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-dark mb-6">Dr. Irshad Ahmad</h2>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        With a deep commitment to delivering world-class dental care, Dr. Irshad Ahmad ensures every patient walks out with a healthy, confident smile. At <strong>स्माइल केयर</strong>, we combine clinical expertise with a gentle touch, ensuring your visit is absolutely anxiety-free and comfortable.
+                    </p>
+                    
+                    <h3 class="font-heading font-bold text-xl text-dark mb-6">Why Choose Smile Care in Rewa?</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-brand-lightGreenBg text-brand-teal flex items-center justify-center flex-shrink-0 mt-1">
+                                <i data-lucide="shield-check" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-semibold text-dark">Experienced Doctor</h4>
+                                <p class="text-sm text-gray-500 mt-1">Specialized expertise in complex dental procedures.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-brand-lightGreenBg text-brand-teal flex items-center justify-center flex-shrink-0 mt-1">
+                                <i data-lucide="feather" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-semibold text-dark">Pain-Free Treatments</h4>
+                                <p class="text-sm text-gray-500 mt-1">Advanced techniques for minimum discomfort.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-brand-lightGreenBg text-brand-teal flex items-center justify-center flex-shrink-0 mt-1">
+                                <i data-lucide="cpu" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-semibold text-dark">Modern Equipment</h4>
+                                <p class="text-sm text-gray-500 mt-1">State-of-the-art clinic setting in Rewa.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-full bg-brand-lightGreenBg text-brand-teal flex items-center justify-center flex-shrink-0 mt-1">
+                                <i data-lucide="banknote" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-heading font-semibold text-dark">Affordable Pricing</h4>
+                                <p class="text-sm text-gray-500 mt-1">Premium care that fits your budget.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#appointment" class="inline-flex items-center gap-2 bg-dark hover:bg-gray-800 text-white px-8 py-4 rounded-2xl font-bold transition-colors shadow-lg">
+                        Consult Dr. Irshan Today <i data-lucide="calendar-check" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Testimonials -->
+    <section id="reviews" class="py-24 bg-brand-lightGreenBg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h4 class="text-brand-teal font-semibold tracking-wide uppercase mb-2">Patient Stories</h4>
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-dark mb-4">Healthy Smiles, Confident Lives</h2>
+                <p class="text-gray-600 text-lg">Don't just take our word for it. See what our patients in Rewa have to say about their experience at स्माइल केयर.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-gray-100 relative">
+                    <i data-lucide="quote" class="absolute top-6 right-6 w-10 h-10 text-brand-lightGreen opacity-50"></i>
+                    <div class="flex gap-1 mb-6 text-yellow-400">
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    </div>
+                    <p class="text-gray-600 mb-8 leading-relaxed">"Best dental clinic in Rewa! Dr. Irshan is very polite and professional. I had a root canal done and it was completely painless. Highly recommend to everyone."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center font-bold text-gray-500">R</div>
+                        <div>
+                            <h4 class="font-heading font-bold text-dark">Rahul Tiwari</h4>
+                            <p class="text-xs text-gray-500">Root Canal Patient</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-gray-100 relative">
+                    <i data-lucide="quote" class="absolute top-6 right-6 w-10 h-10 text-brand-lightGreen opacity-50"></i>
+                    <div class="flex gap-1 mb-6 text-yellow-400">
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    </div>
+                    <p class="text-gray-600 mb-8 leading-relaxed">"I was always scared of dentists, but the team at Smile Care made me feel so comfortable. The clinic is very clean and hygienic. The teeth whitening results are amazing."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center font-bold text-gray-500">S</div>
+                        <div>
+                            <h4 class="font-heading font-bold text-dark">Sneha Patel</h4>
+                            <p class="text-xs text-gray-500">Cosmetic Dentistry</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-white p-8 rounded-[2rem] shadow-sm border border-gray-100 relative">
+                    <i data-lucide="quote" class="absolute top-6 right-6 w-10 h-10 text-brand-lightGreen opacity-50"></i>
+                    <div class="flex gap-1 mb-6 text-yellow-400">
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                        <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    </div>
+                    <p class="text-gray-600 mb-8 leading-relaxed">"Got braces for my daughter here. Dr. Irshan explained the entire process clearly. Pricing is very transparent and affordable compared to others in Rewa."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center font-bold text-gray-500">A</div>
+                        <div>
+                            <h4 class="font-heading font-bold text-dark">Amit Singh</h4>
+                            <p class="text-xs text-gray-500">Orthodontic Patient</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Gallery / Clinic Overview -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-end justify-between mb-12 gap-6">
+                <div class="max-w-2xl">
+                    <h4 class="text-brand-teal font-semibold tracking-wide uppercase mb-2">Clinic Tour</h4>
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-dark">Modern Facilities</h2>
+                </div>
+                <a href="#appointment" class="hidden md:flex text-brand-teal font-semibold items-center gap-2 hover:gap-3 transition-all">
+                    Visit Clinic Today <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <img src="https://images.unsplash.com/photo-1598256989800-fe5f95da9787?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Clean Dental Clinic Room" class="w-full h-64 object-cover rounded-[2rem] shadow-sm hover:shadow-md transition-shadow">
+                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80" alt="Advanced Dental Equipment" class="w-full h-64 object-cover rounded-[2rem] shadow-sm hover:shadow-md transition-shadow">
+                <img src="https://images.unsplash.com/photo-1653508311016-f8ea769c9cb4?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Happy Patient Smile" class="w-full h-64 object-cover rounded-[2rem] shadow-sm hover:shadow-md transition-shadow">
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Appointment Section -->
+    <section id="appointment" class="py-24 hero-gradient relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="bg-white rounded-[3rem] shadow-apple overflow-hidden flex flex-col lg:flex-row border border-gray-100">
+                
+                <!-- Form Area -->
+                <div class="w-full lg:w-3/5 p-8 md:p-12 lg:p-16">
+                    <h2 class="text-3xl font-heading font-bold text-dark mb-2">Book Your Appointment</h2>
+                    <p class="text-gray-500 mb-8">Fill out the form below and our team will get back to you immediately.</p>
+
+                    <form id="booking-form" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Full Name *</label>
+                                <input type="text" required class="w-full px-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-brand-teal focus:bg-white transition-all" placeholder="John Doe">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Phone Number *</label>
+                                <input type="tel" required class="w-full px-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-brand-teal focus:bg-white transition-all" placeholder="+91 00000 00000">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Service Required</label>
+                                <select class="w-full px-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-brand-teal focus:bg-white transition-all text-gray-600 appearance-none">
+                                    <option value="General Checkup">General Checkup</option>
+                                    <option value="Root Canal">Root Canal</option>
+                                    <option value="Teeth Whitening">Teeth Whitening</option>
+                                    <option value="Dental Implants">Dental Implants</option>
+                                    <option value="Braces">Braces / Aligners</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Preferred Date</label>
+                                <input type="date" required class="w-full px-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-brand-teal focus:bg-white transition-all text-gray-600">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Any Message (Optional)</label>
+                            <textarea rows="3" class="w-full px-5 py-4 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-brand-teal focus:bg-white transition-all resize-none" placeholder="Briefly describe your dental issue..."></textarea>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row gap-4 pt-2">
+                            <button type="submit" class="flex-1 bg-brand-teal hover:bg-brand-tealDark text-white px-8 py-4 rounded-2xl font-bold transition-all shadow-md flex items-center justify-center gap-2">
+                                Confirm Appointment <i data-lucide="check-circle" class="w-5 h-5"></i>
+                            </button>
+                            <a href="https://wa.me/917389008657?text=Hello%20I%20want%20to%20book%20an%20appointment" target="_blank" class="sm:w-auto bg-[#25D366] hover:bg-[#20bd5a] text-white px-8 py-4 rounded-2xl font-bold transition-all shadow-md flex items-center justify-center gap-2">
+                                <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp
+                            </a>
+                        </div>
+                    </form>
+                    
+                    <div id="form-success" class="hidden mt-6 p-4 bg-green-50 border border-green-200 rounded-2xl text-green-700 flex items-start gap-3">
+                        <i data-lucide="check-circle-2" class="w-6 h-6 flex-shrink-0 mt-0.5"></i>
+                        <div>
+                            <p class="font-bold">Request Received!</p>
+                            <p class="text-sm mt-1">Thank you. Our front desk will call you shortly to confirm your time slot.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Info Area -->
+                <div class="w-full lg:w-2/5 bg-dark p-8 md:p-12 lg:p-16 text-white flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-heading font-bold text-2xl mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-8">
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="map-pin" class="w-6 h-6 text-brand-teal"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg text-white">Clinic Address</h4>
+                                    <p class="text-gray-400 mt-1 leading-relaxed">Beside Nayan Sukh Opticians, Venkat Road, Rewa, Madhya Pradesh 486001</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="phone" class="w-6 h-6 text-brand-teal"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg text-white">Phone & WhatsApp</h4>
+                                    <a href="tel:+917389008657" class="block text-gray-400 mt-1 hover:text-white transition">+91 73890 08657</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                                    <i data-lucide="clock" class="w-6 h-6 text-brand-teal"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold text-lg text-white">Working Hours</h4>
+                                    <p class="text-gray-400 mt-1">Mon - Sat: 10:00 AM - 8:00 PM</p>
+                                    <p class="text-gray-400">Sunday: By Appointment Only</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Map Section -->
+    <section id="contact" class="w-full h-[400px] bg-gray-200">
+        <!-- Using a generic embed for Venkat Road, Rewa -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14414.492505508311!2d81.29342245!3d24.5381882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39845a3398708311%3A0xc3f680a6b22cd2d1!2sVenkat%20Rd%2C%20Rewa%2C%20Madhya%20Pradesh%20486001!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin" 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <!-- 11. Final CTA -->
+    <section class="py-20 bg-brand-teal text-center px-4">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl md:text-5xl font-heading font-bold text-white mb-6">Ready for a Brighter Smile?</h2>
+            <p class="text-teal-50 text-lg mb-10">Join thousands of happy patients in Rewa. Book your consultation with Dr. Irshad Ahmad today.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="tel:+917389008657" class="bg-white text-brand-teal px-8 py-4 rounded-2xl font-bold text-lg transition-transform hover:-translate-y-1 shadow-lg flex items-center justify-center gap-2">
+                    <i data-lucide="phone-call" class="w-5 h-5"></i> Call Now
+                </a>
+                <a href="#appointment" class="bg-dark text-white hover:bg-gray-800 px-8 py-4 rounded-2xl font-bold text-lg transition-transform hover:-translate-y-1 shadow-lg flex items-center justify-center gap-2">
+                    Book Appointment <i data-lucide="calendar" class="w-5 h-5"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Footer -->
+    <footer class="bg-dark pt-16 pb-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="w-10 h-10 bg-brand-teal rounded-xl flex items-center justify-center text-white">
+                            <i data-lucide="smile" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h2 class="font-heading font-bold text-2xl text-white leading-none">स्माइल केयर</h2>
+                            <p class="text-[10px] font-semibold text-brand-teal tracking-wider uppercase">Smile Care</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-6 leading-relaxed">Healthy Smiles, Confident Lives. Delivering advanced, painless, and affordable dental care in Rewa.</p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-teal transition-colors"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-brand-teal transition-colors"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div>
+                    <h3 class="text-white font-heading font-bold text-lg mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#home" class="text-gray-400 hover:text-brand-teal transition">Home</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-brand-teal transition">Our Services</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-brand-teal transition">About Doctor</a></li>
+                        <li><a href="#reviews" class="text-gray-400 hover:text-brand-teal transition">Patient Reviews</a></li>
+                        <li><a href="#appointment" class="text-gray-400 hover:text-brand-teal transition">Book Appointment</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h3 class="text-white font-heading font-bold text-lg mb-6">Contact Us</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3 text-gray-400">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-brand-teal flex-shrink-0 mt-0.5"></i>
+                            <span>Beside Nayan Sukh Opticians,<br>Venkat Road, Rewa (M.P.)</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-400">
+                            <i data-lucide="phone" class="w-5 h-5 text-brand-teal flex-shrink-0"></i>
+                            <a href="tel:+917389008657" class="hover:text-white transition">+91 73890 08657</a>
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-400">
+                            <i data-lucide="mail" class="w-5 h-5 text-brand-teal flex-shrink-0"></i>
+                            <a href="mailto:info@smilecarerewa.com" class="hover:text-white transition">info@smilecarerewa.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">© 2026 स्माइल केयर (Smile Care) Clinic. All rights reserved.</p>
+                <p class="text-gray-500 text-sm">Created by<a href="https://www.instagram.com/quick_shop_pro/"> @quick_shop_pro</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917389008657?text=Hello%20I%20want%20to%20book%20an%20appointment" 
+       target="_blank" 
+       class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center shadow-apple hover:scale-110 transition-transform whatsapp-float"
+       aria-label="Chat on WhatsApp">
+        <i data-lucide="message-circle" class="w-8 h-8"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"> </script>
+</body>
+</html>
